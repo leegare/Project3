@@ -50,4 +50,10 @@ The following operations will prepare and refine the data for the analysis:
 > The demand distribution is right skewed with several outliers. To correct this, these values will be normalized in function of the total demand per day. 
 
 5. Create downsampled Dataframes 
->Group the hourly data into daily data and daily data into weekly data. 
+>Group the hourly data into daily data and daily data into weekly data. The daily sampling behaves more like a normal distribution than the hourly distribution. Without outliers on the total and registered type count, these two distributions seem pretty normal. 
+
+## What is the distribution of the demand for rental bikes throughout the day? Is there a significant difference between the weekdays and the weekends? 
+
+The purpose of this analysis is to see how the demand for bikes fluctuates throughout the week and the weekends and thus develop a suitable model for the supply chain to keep the demand balanced.
+
+![**Figure . % Q1WeekendVsWeekday**](../reports/img/Q1WeekendVsWeekday.png)
