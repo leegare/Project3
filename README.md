@@ -56,4 +56,4 @@ The following operations will prepare and refine the data for the analysis:
 
 The purpose of this analysis is to see how the demand for bikes fluctuates throughout the week and the weekends and thus develop a suitable model for the supply chain to keep the demand balanced.
 
-![**Figure . % Q1WeekendVsWeekday**](../reports/img/Q1WeekendVsWeekday.png)
+![**Figure . % Q1WeekendVsWeekday**](reports/img/Q1WeekendVsWeekday.png)
