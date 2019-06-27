@@ -161,8 +161,11 @@ The Arima model didn't fall behind, predicting better than the manual model sine
 
 ![**Figure . % Q5TestResults**](reports/img/Q5TestResults.png)
 
-## Conclusion
+## Conclusion and further work
 
 The manual model showed pretty good results on the training set however the results were different on the test set where the regression model got the lowest RMSE value of 0.15. 
 The parameters of the manual model are not optimal, which means an exhaustive search for the lowest RMSE can be done in future works to beat the linear regression's model RMSE. 
-This study shows how the temperature is a decisive descriptor of the number of bikes rented and knowing the weather patterns throughout time can save bike rental companies from problems related to the number of bikes available. 
+This study shows how the temperature is a decisive descriptor of the number of bikes rented and knowing the weather patterns throughout time can save bike rental companies from problems related to the number of bikes available.
+
+There is also a pattern on the daily demand, adding dayofweek as a categorical variable could improve the model accuracy because the loss rate will have been minimized compared to a linear average on all entities.
+
